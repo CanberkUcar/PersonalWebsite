@@ -2,43 +2,63 @@
 <html>
 
     <head>
+        <!---------------------------------- SECTION HEAD. ---------------------------------->
         <!-- Title. -->
         <title>Portfolio of Canberk</title>
 
         <!-- Meta Tags. -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="language" content="US-en" />
+        <meta name="description"
+            content="I'm Canberk Uçar and this is my portfolio site, I'm currently looking for a job. FrontEnd Web-design and other services is just one click away!" />
+        <meta name="keywords"
+            content="Canberk, Uçar, Canberk Uçar, CanberkUcar, CanberkUcarWeb, Portfolio, Web design, Web-design, Web Development, Front End, Front-end, Front-end design, Front end design, Computer Science, Computer Engineering, Website design, Create a Website, Design a Website, Business Website, Angular, ASP.NET Developer, Angular.js" />
+        <meta name="author" content="Canberk Uçar" />
+        <meta name="subject" content="Personal Website and Portfolio for Canberk Uçar" />
+        <meta name="copyright" content="Canberk Uçar" />
+        <meta name="coverage" content="Worldwide" />
+        <meta property="og:title" content="Canberk Uçar" />
+        <meta property="og:type" content="Personal website" />
+        <meta name="og:description"
+            content="I'm Canberk Uçar and this is my portfolio site, I'm currently looking for a job. FrontEnd Web-design and other services is just one click away!" />
+        <meta name="og:email" content="canberk.ucar.mail@gmail.com" />
 
-        <!-- Outer CSS -->
+        <!-- Outer CSS. -->
         <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootswatch/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/aos.css">
+        <link rel="stylesheet" href="assets/css/hover-min.css" media="all">
+
+        <!-- FontAwesome Plugin. -->
         <script src="https://kit.fontawesome.com/f58c8974e4.js" crossorigin="anonymous"></script>
     </head>
 
-    <body class="is-preload">
 
+    <body class="aos-all">
+        <!---------------------------------- SECTION BODY. ---------------------------------->
         <!-- Nav. -->
         <nav id="nav">
             <ul class="container">
-                <li><a href="#top">Hello</a></li>
-                <li><a href="#work">Future Works</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#top" class="hvr-shrink">Hello</a></li>
+                <li><a href="#work" class="hvr-shrink">Future Works</a></li>
+                <li><a href="#portfolio" class="hvr-shrink">Portfolio</a></li>
+                <li><a href="#contact" class="hvr-shrink">Contact Me</a></li>
             </ul>
         </nav>
+        <!-- End Nav. -->
 
 
-        <!-- Home. Top Section. -->
-        <article id="top" class="wrapper clearfix">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
+        <!-- ANCHOR #top. Home(Hello) Section. -->
+        <article id="top" class="wrapper clearfix backgif">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-4" data-aos="flip-up">
                         <span class="image fit"><img src="images/pic00.jpg" alt="canberkProfile" /></span>
                     </div>
-                    <header class="col-lg-8 my-auto">
-                        <h1>Hi. I'm <strong>Canberk Uçar</strong>.</h1>
+                    <header class="col-lg-8 my-auto" data-aos="fade-up">
+                        <h1 class="hvr-float-shadow">Hi. I'm <strong>Canberk Uçar</strong>.</h1>
                         <h4>Computer Engineering Student.</h4>
                         <h5>// Self-learning <strong> Web Development</strong> through research and making projects.
                         </h5>
@@ -46,20 +66,25 @@
                 </div>
             </div>
         </article>
+        <!-- ANCHOR End #top. -->
 
 
-        <!-- Work -->
-        <article id="work" class="wrapper">
+        <!-- ANCHOR #work. Future Works Section. -->
+        <article id="work" class="wrapper" data-aos="fade-down" data-aos-duration="1000">
             <div class="container">
+
+                <!-- STUB Header of #work. -->
                 <header>
-                    <h2>// Here's all the stuff I can do for you.</h2>
+                    <h2 class="hvr-float-shadow">// Here's all the stuff I can do for you.</h2>
                     <p>As a student and curious Web Developer wanna-be, I want to get my hands on the industry more,
                         For that reason I'm looking for short-term / entry-level works for my own.</p>
                     <h5 class="text-center m-5"> More efficient and better solutions for your company! </h5>
                 </header>
+
                 <div class="row">
-                    <div class="col-lg-4">
-                        <section class="card text-white bg-info mb-3">
+                    <!-- STUB First Card. -->
+                    <div class="col-lg-4" data-aos="fade-right">
+                        <section class="card text-white bg-info mb-3 hvr-shrink">
                             <div class="card-body">
                                 <h4 class="card-title">FrontEnd</h4>
                                 <p>Mostly Angular and React. Beside ASP technologies, because that I'm using
@@ -70,10 +95,13 @@
                                 </p>
                             </div>
                         </section>
+                        <!-- STUB First Button. -->
                         <button type="button" class="btn btn-outline-primary btn-lg btn-block"> See my work!</button>
                     </div>
-                    <div class="col-lg-4">
-                        <section class="card text-white bg-warning mb-3">
+
+                    <!-- STUB Second Card. -->
+                    <div class="col-lg-4" data-aos="fade-up">
+                        <section class="card text-white bg-warning mb-3 hvr-shrink">
                             <div class="card-body">
                                 <h4 class="card-title">ASP.NET Core</h4>
                                 <p>Mostly used MVC Framework and have experience on Entity too. Worked with MsSQL based
@@ -83,10 +111,13 @@
                                 </p>
                             </div>
                         </section>
+                        <!-- STUB Second Button. -->
                         <button type="button" class="btn btn-outline-primary btn-lg btn-block"> See my work!</button>
                     </div>
-                    <div class="col-lg-4">
-                        <section class="card text-white bg-success mb-3">
+
+                    <!-- STUB Third Card. -->
+                    <div class="col-lg-4" data-aos="fade-left">
+                        <section class="card text-white bg-success mb-3 hvr-shrink">
                             <div class="card-body">
                                 <h4 class="card-title">Basic Web Design</h4>
                                 <p>I have teaching on Ankara University as a Teacher Assistant on
@@ -100,120 +131,145 @@
                                 </p>
                             </div>
                         </section>
+                        <!-- STUB Third Button. -->
                         <button type="button" class="btn btn-outline-primary btn-lg btn-block"> See my work!</button>
                     </div>
-
                 </div>
-
             </div>
-
         </article>
+        <!-- ANCHOR End #work. -->
 
 
-
-        <!-- Portfolio -->
-        <article id="portfolio" class="wrapper">
+        <!-- ANCHOR #portfolioç Portfolio Section. -->
+        <article id="portfolio" class="wrapper" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="0">
             <div class="container">
+
+                <!-- STUB Heeader of #portfolio. -->
                 <header>
-                    <h2>// My Current Knowledge.</h2>
+                    <h2 class="hvr-float-shadow">// My Current Knowledge.</h2>
                     <p>With that in mind, you can check my GitHub Page for my code!</p>
                 </header>
 
-                <table class="table table-hover">
+                <!-- REVIEW Table of #portfolio. -->
+                <table class="table table-hover" data-aos="flip-up" data-aos-duration="1500">
+
+                    <!-- STUB Table HEAD. -->
                     <thead>
                         <tr>
                             <th scope="col">
                                 <h6 class="text-left">Technology</h5>
                             </th>
-                            <th scope="col"></th>
-                            <th scope="col"></th>
                             <th scope="col">
                                 <h6 class="text-right">Experience</h5>
                             </th>
                         </tr>
                     </thead>
+
+                    <!-- STUB Table BODY. -->
                     <tbody>
                         <tr class="table-dark">
                             <th scope="row">HTML5 / CSS / Bootstrap</th>
-                            <td></td>
-                            <td></td>
                             <td class="align-content-center">Extremely Comfortable</td>
                         </tr>
                         <tr class="table-light">
                             <th scope="row">Angular.js / React.js</th>
-                            <td></td>
-                            <td></td>
                             <td>Moderately Comfortable</td>
                         </tr>
                         <tr class="table-dark">
                             <th scope="row">ASP.NET MVC / Core</th>
-                            <td></td>
-                            <td></td>
                             <td>Very Comfortable</td>
                         </tr>
                         <tr class="table-light">
                             <th scope="row">PHP / Laravel</th>
-                            <td></td>
-                            <td></td>
+
                             <td>Not Comfortable</td>
                         </tr>
                         <tr class="table-dark">
                             <th scope="row">Node.js / NPM </th>
-                            <td></td>
-                            <td></td>
+
                             <td>Very Comfortable</td>
                         </tr>
                     </tbody>
                 </table>
 
-                <div class="w-25 alert alert-secondary text-center mx-auto mt-5">
+                <!-- STUB Github Button under the Table. -->
+                <div class="w-25 alert alert-secondary text-center mx-auto mt-5" data-aos="zoom-in-up">
                     <strong>For GitHub</strong> <a href="https://github.com/CanberkUcar" class="alert-link"> Click
                         Here!
                     </a>
                 </div>
+
             </div>
         </article>
+        <!-- ANCHOR End #portfolio. -->
 
+
+        <!-- ANCHOR #contact. Information section. -->
         <article id="contact" class="wrapper">
             <div class="container">
                 <div class="row">
-                    <ul class="social-buttons col-lg-8">
+                    <!-- REVIEW Social Media Buttons. -->
+                    <ul class="social-buttons col-lg-8" data-aos="zoom-in-right" data-aos-duration="1200">
+                        <!-- STUB Linkedin. -->
                         <li>
-
-                            <a href="https://www.linkedin.com/in/canberk-ucar-web/" class="linkedin"> <i
-                                    class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/in/canberk-ucar-web" target="#blank"
+                                class="linkedin hvr-grow-shadow">
+                                <i class="fab fa-linkedin-in"></i></a>
                             <h5 class="text-white">linkedin.com/in/canberk-ucar-web</h5>
                         </li>
+                        <!-- STUB Whatsapp. -->
                         <li>
-                            <a href="" class="brandico-facebook"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#contact" class="whatsapp hvr-grow-shadow"><i class="fab fa-whatsapp"></i></a>
                             <h5 class="text-white">+90530 643 74 98</h5>
-
                         </li>
+                        <!-- STUB Gmail. -->
                         <li>
-                            <a href="#" class="brandico-instagram"><i class="fas fa-envelope"></i></a>
+                            <a href="mailto:canberk.ucar.mail@gmail.com" class="gmail hvr-grow-shadow">
+                                <i class="fas fa-envelope"></i></a>
                             <h5 class="text-white">canberk.ucar.mail@gmail.com</h5>
-
-                        <li>
-                            <a href="https://twitter.com/sklaskanoir" class="brandico-vimeo"><i
-                                    class="fab fa-twitter"></i></a>
-                            <h5 class="text-white">twitter.com/sklaskanoir</h5>
-
                         </li>
+                        <!-- STUB Twitter. -->
                         <li>
-                            <a href="https://github.com/CanberkUcar" class="brandico-linkedin"><i
-                                    class="fab fa-github"></i></a>
+                            <a href="https://twitter.com/CanberkUcarWeb" target="#blank"
+                                class="twitter hvr-grow-shadow">
+                                <i class="fab fa-twitter"></i></a>
+                            <h5 class="text-white">twitter.com/CanberkUcarWeb</h5>
+                        </li>
+                        <!-- STUB Github. -->
+                        <li>
+                            <a href="https://github.com/CanberkUcar" target="#blank" class="github hvr-grow-shadow">
+                                <i class="fab fa-github"></i></a>
                             <h5 class="text-white">github.com/CanberkUcar</h5>
                         </li>
                     </ul>
-                    <div class="col-lg-4 my-auto">
-                        <h1 class="text-white ml-5"> // Contact Me!</h1>
+
+                    <!-- STUB Contact Me Text. -->
+                    <div class="col-lg-4 my-auto" data-aos="zoom-in-left" data-aos-duration="1500">
+                        <a href="mailto:canberk.ucar.mail@gmail.com">
+                            <h1 class="text-white ml-5 hvr-underline-from-center hvr-grow"> // Contact Me!</h1>
+                        </a>
                     </div>
 
+                    <!-- NOTE : copyright: GPL-3.0 -->
+                    <ul id="copyright" class="mx-auto my-5">
+                        <li>&copy; GPL-3.0. All rights reserved.</li>
+                        <li>Design: Canberk Uçar </a></li>
+                    </ul>
                 </div>
             </div>
         </article>
+        <!-- ANCHOR End #contact. -->
 
-        <script src="" async defer></script>
+
+        <!-- SECTION SCRIPTS. -->
+        <script src="assets/js/main.js" async defer></script>
+        <script src="assets/js/aos.js"></script>
+        <script>
+            AOS.init({
+                easing: 'ease-in-out-sine'
+            });
+        </script>
     </body>
+    <!---------------------------------- SECTION END. ---------------------------------->
 
 </html>
